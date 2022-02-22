@@ -1,0 +1,34 @@
+// Desktop Screen => // *  1400px -- 1200px
+@mixin desktop-screen {
+	@media screen and (max-width: 1400px) {
+		@content;
+	}
+}
+
+// Laptop Screen => // *  1200px -- 992px
+@mixin laptop-screen {
+	@media screen and (max-width: 1200px) {
+		@content;
+	}
+}
+
+// Tablet Screen  // *  992px -- 786px
+@mixin tablet-screen {
+	@media screen and (max-width: 992px) {
+		@content;
+	}
+}
+
+// Large Screen Mobile Phone  // *  786px -- 480px
+@mixin large-screen-phone {
+	@media screen and (max-width: 786px) {
+		@content;
+	}
+}
+
+// Small Screen Mobile Phone  // *  < 480px
+@mixin small-screen-phone {
+	@media screen and (max-width: 480px) {
+		@content;
+	}
+}

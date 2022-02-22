@@ -1,0 +1,92 @@
+.navbar {
+	position: absolute;
+	top: 0;
+	width: 100%;
+	display: flex;
+	gap: 20px;
+	justify-content: space-between;
+	padding: 20px;
+
+	.logo {
+		cursor: pointer;
+	}
+
+	.links {
+		display: flex;
+		gap: 20px;
+		width: 100%;
+
+		.section_links {
+			list-style: none;
+			display: flex;
+			align-items: flex-start;
+			gap: 20px;
+			width: 100%;
+
+			li {
+				width: 25%;
+
+				a {
+					width: 100%;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+					height: 50px;
+					background: #18191a;
+					border: none;
+					color: #ce70b1;
+					font-size: 18px;
+					font-weight: 800;
+					text-transform: uppercase;
+					box-shadow: 0 0 4px 2px #fad1fa;
+					cursor: pointer;
+					border-radius: 5px;
+					text-decoration: none;
+				}
+			}
+		}
+
+		.social_links {
+			list-style: none;
+			display: flex;
+			align-items: flex-start;
+			gap: 20px;
+
+			li {
+				a {
+					cursor: pointer;
+					display: block;
+					background: #fff;
+					border: none;
+					height: 50px;
+					width: 50px;
+					border-radius: 5px;
+					display: flex;
+					align-items: center;
+					justify-content: center;
+
+					img {
+						width: 30px;
+						height: 25px;
+					}
+				}
+			}
+		}
+	}
+
+	.connect_btn {
+		width: 100px;
+		height: 190px;
+		margin-top: -40px;
+		background: transparent;
+		border: none;
+		outline: none;
+		cursor: pointer;
+		padding-right: 10px;
+
+		img {
+			width: 100%;
+			height: 100%;
+		}
+	}
+}

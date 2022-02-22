@@ -1,0 +1,97 @@
+.minting_section {
+	width: 100%;
+	position: relative;
+	z-index: 1;
+	height: 2200px;
+
+	.minting_bg {
+		margin-top: -200px;
+		width: 100%;
+		height: 100%;
+
+		img {
+			width: 100%;
+			height: 100%;
+			object-fit: center;
+		}
+	}
+
+	.minting_date_box {
+		position: absolute;
+		top: 190px;
+		left: 150px;
+		z-index: 1;
+	}
+
+	.roadmap_img {
+		cursor: pointer;
+		position: absolute;
+		top: 500px;
+		left: 170px;
+		z-index: 2;
+	}
+
+	.cctv_right {
+		position: absolute;
+		top: 190px;
+		right: 30px;
+	}
+	.frame_eye {
+		position: absolute;
+		top: 330px;
+		right: 120px;
+	}
+	.brain_jar {
+		position: absolute;
+		top: 900px;
+		right: 130px;
+	}
+
+	.frame_nft_row {
+		position: absolute;
+		top: 680px;
+		left: 30px;
+		display: flex;
+		gap: 50px;
+	}
+
+	.mint_card_section {
+		position: absolute;
+		bottom: 650px;
+		left: 250px;
+		display: flex;
+
+		.mint_card {
+			z-index: 2;
+			width: 384px;
+			img {
+				width: 100%;
+			}
+		}
+
+		.mint_button {
+			background: transparent;
+			border: none;
+			outline: none;
+			cursor: pointer;
+			margin-bottom: -500px;
+			margin-left: -20px;
+
+			img {
+				width: 100%;
+			}
+		}
+	}
+
+	.computer_sequence {
+		position: absolute;
+		bottom: 120px;
+		left: 160px;
+	}
+
+	.computer_sequence_light {
+		position: absolute;
+		bottom: 20px;
+		left: 140px;
+	}
+}
