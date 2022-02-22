@@ -52,7 +52,7 @@ const Faq = () => {
 		setClicked(index)
 	}
 	return (
-		<div className="faq">
+		<div className="faq" id="faq">
 			<div className="faq_title">
 				<img src={FaqImg} alt="FaqImg" />
 			</div>

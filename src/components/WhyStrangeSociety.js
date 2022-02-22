@@ -14,7 +14,7 @@ import { LightOnOff, ShakeEgg } from './../animations/index'
 
 const WhyStrangeSociety = () => {
 	return (
-		<motion.div initial="hide" animate="show" className="why_strange_society">
+		<motion.div initial="hide" animate="show" id="mint" className="why_strange_society">
 			<div className="bg">
 				<img src={WhyStrangeSocietyBg} alt="WhyStrangeSocietyBg" />
 			</div>
