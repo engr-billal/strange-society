@@ -55,6 +55,8 @@ const Minting = () => {
 
 				<button className="mint_button">
 					<img src={MintButton} alt="MintButton" />
+
+					<button className="button_overlay"></button>
 				</button>
 			</div>
 

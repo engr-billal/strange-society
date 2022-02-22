@@ -73,13 +73,25 @@
 			background: transparent;
 			border: none;
 			outline: none;
-			cursor: pointer;
 			margin-bottom: -500px;
 			margin-left: -20px;
-			z-index: 9;
+			// z-index: 9;
+			position: relative;
 
 			img {
 				width: 100%;
+			}
+
+			.button_overlay {
+				cursor: pointer;
+				width: 60%;
+				height: 20%;
+				border: none;
+				background: transparent;
+				z-index: 9;
+				position: absolute;
+				top: 250px;
+				left: 50px;
 			}
 		}
 	}
